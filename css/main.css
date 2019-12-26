@@ -34,7 +34,7 @@ code {
 }
 
 .wrapper {
-  overflow: auto;
+  overflow: hidden;
   position: relative;
 }
 
