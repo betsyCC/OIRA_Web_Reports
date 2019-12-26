@@ -34,7 +34,7 @@ code {
 }
 
 .wrapper {
-  overflow: hidden;
+  overflow: auto;
   position: relative;
 }
 
@@ -231,6 +231,48 @@ code {
   color: #005daa;
   background: #dde2eb;
 }
+
+
+
+.datatable {
+	width: 100%;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 11pt;
+}
+.datatable caption {
+	text-align: left;
+	font-size: 13pt;
+	margin: 12px 0;
+	color: #1d3a83;
+	font-weight: 600;
+}
+.datatable thead tr th {
+	font-weight: 600;
+	padding: 2px 4px;
+	border-bottom: 1px solid #1d3a83;
+	color: #1d3a83;
+	text-align: center;
+}
+.datatable tbody tr th {
+	font-weight: 600;
+	padding: 0px 4px;
+	color: #1d3a83;
+}
+.datatable tbody tr td {
+	font-weight: 400;
+	padding: 0px 4px;
+	text-align: right;
+}
+.datatable tbody tr:nth-child(even) {
+	background-color: #f0f3f7;
+}
+
+/*
+.section level3 {
+	
+}
+*/
 
 .footer {
   padding: 25px 0;
