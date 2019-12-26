@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on OIRA_Web_Reports</title>
-    <link>/OIRA_Web_Reports/</link>
+    <link>https://betsycc.github.io/OIRA_Web_Reports/</link>
     <description>Recent content in Home on OIRA_Web_Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/OIRA_Web_Reports/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://betsycc.github.io/OIRA_Web_Reports/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How this site was created...</title>
-      <link>/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</link>
+      <link>https://betsycc.github.io/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</link>
       <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</guid>
+      <guid>https://betsycc.github.io/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</guid>
       <description>This is my first blog post which I created mostly to test out how the blog would work if we decided to have one.
 This website is a draft for testing out options for posting accessible data tables and reports for CUNY’s Office of Institutional Research.
 This site was created using RStudio and blogdown using the default blogdown/Hugo theme, hugo-lithium, as a base and then customizing it to be more in line with CUNY’s branding by altering the layouts and CSS.</description>
@@ -24,10 +24,10 @@ This site was created using RStudio and blogdown using the default blogdown/Hugo
     
     <item>
       <title>2018 Enrollment</title>
-      <link>/OIRA_Web_Reports/databook/2018-enrollment/</link>
+      <link>https://betsycc.github.io/OIRA_Web_Reports/databook/2018-enrollment/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/OIRA_Web_Reports/databook/2018-enrollment/</guid>
+      <guid>https://betsycc.github.io/OIRA_Web_Reports/databook/2018-enrollment/</guid>
       <description></description>
     </item>
     
