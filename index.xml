@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on OIRA_Web_Reports</title>
-    <link>/OIRA_Web_Reports/</link>
+    <link>https://betsycc.github.io/OIRA_Web_Reports/</link>
     <description>Recent content in Home on OIRA_Web_Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/OIRA_Web_Reports/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://betsycc.github.io/OIRA_Web_Reports/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How this site was created...</title>
-      <link>/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</link>
+      <link>https://betsycc.github.io/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</link>
       <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</guid>
+      <guid>https://betsycc.github.io/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</guid>
       <description>This is my first blog post which I created mostly to test out how the blog would work if we decided to have one.
 This website is a draft for testing out options for posting accessible data tables and reports for CUNY’s Office of Institutional Research.
 This site was created using RStudio and blogdown using the default blogdown/Hugo theme, hugo-lithium, as a base and then customizing it to be more in line with CUNY’s branding by altering the layouts and CSS.</description>
@@ -24,10 +24,10 @@ This site was created using RStudio and blogdown using the default blogdown/Hugo
     
     <item>
       <title>2018 Enrollment</title>
-      <link>/OIRA_Web_Reports/databook/2018-enrollment/</link>
+      <link>https://betsycc.github.io/OIRA_Web_Reports/databook/2018-enrollment/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/OIRA_Web_Reports/databook/2018-enrollment/</guid>
+      <guid>https://betsycc.github.io/OIRA_Web_Reports/databook/2018-enrollment/</guid>
       <description>DRAFT Tables for Web Server HostingkableExtra with advanced stylingTotal Enrollment by Undergraduate and Graduate Level, Full-time/Part-time Attendance, and College - Fall 2018UndergraduateGraduateTotalCollegeFull-timePart-timeTotalFull-timePart-timeTotalFull-timePart-timeTotalBaruch11,4953,52915,0245662,4393,00512,0615,96818,029Brooklyn11,1423,83614,9785952,5883,18311,7376,42418,161City10,2482,93813,1865032,0582,56110,7514,99615,747Hunter13,1114,10117,2121,5244,4665,99014,6358,56723,202John Jay10,7402,57913,3193881,6872,07511,1284,26615,394Lehman7,7944,84512,6392141,9342,1488,0086,77914,787Medgar Evers4,7051,9336,6384,7051,9336,638NYCCT10,9026,36717,26910,9026,36717,269Queens12,2014,41916,6204302,6963,12612,6317,11519,746Staten Island9,5672,64412,2112268101,0369,7933,45413,247York5,0853,4108,495147511985,2323,4618,693Graduate School3,1394683,6073,1394683,607Journalism22552302255230Professional Studies4011,7102,111191,0751,0944202,7853,205Labor &amp;amp; Urban Studies101661761222223422388410Public Health163426589163426589Law School418165583418165583Medical School2375929623759296Total Senior Colleges107,40142,477149,8788,80621,14929,955116,20763,626179,833BMCC18,0768,43026,50618,0768,43026,506Bronx6,6853,83410,5196,6853,83410,519Guttman848107955848107955Hostos4,1383,1937,3314,1383,1937,331Kingsborough8,1546,89715,0518,1546,89715,051LaGuardia10,6718,62919,30010,6718,62919,300Queensborough9,2326,17915,4119,2326,17915,411Total Community Colleges57,80437,26995,07357,80437,26995,073TOTAL UNIVERSITY165,20579,746244,9518,80621,14929,955174,011100,895274,906kableExtra with advanced styling part 2Total Enrollment by Undergraduate and Graduate Level, Full-time/Part-time Attendance, and College - Fall 2018UndergraduateGraduateTotalCollegeFull-timePart-timeTotalFull-timePart-timeTotalFull-timePart-timeTotalBaruch11,4953,52915,0245662,4393,00512,0615,96818,029Brooklyn11,1423,83614,9785952,5883,18311,7376,42418,161City10,2482,93813,1865032,0582,56110,7514,99615,747Hunter13,1114,10117,2121,5244,4665,99014,6358,56723,202John Jay10,7402,57913,3193881,6872,07511,1284,26615,394Lehman7,7944,84512,6392141,9342,1488,0086,77914,787Medgar Evers4,7051,9336,6384,7051,9336,638NYCCT10,9026,36717,26910,9026,36717,269Queens12,2014,41916,6204302,6963,12612,6317,11519,746Staten Island9,5672,64412,2112268101,0369,7933,45413,247York5,0853,4108,495147511985,2323,4618,693Graduate School3,1394683,6073,1394683,607Journalism22552302255230Professional Studies4011,7102,111191,0751,0944202,7853,205Labor &amp;amp; Urban Studies101661761222223422388410Public Health163426589163426589Law School418165583418165583Medical School2375929623759296Total Senior Colleges107,40142,477149,8788,80621,14929,955116,20763,626179,833BMCC18,0768,43026,50618,0768,43026,506Bronx6,6853,83410,5196,6853,83410,519Guttman848107955848107955Hostos4,1383,1937,3314,1383,1937,331Kingsborough8,1546,89715,0518,1546,89715,051LaGuardia10,6718,62919,30010,6718,62919,300Queensborough9,2326,17915,4119,2326,17915,411Total Community Colleges57,80437,26995,07357,80437,26995,073TOTAL UNIVERSITY165,20579,746244,9518,80621,14929,955174,011100,895274,906DTDOES NOT WORK IN WordPress!</description>
     </item>
     
