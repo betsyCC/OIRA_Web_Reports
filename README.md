@@ -1,1 +1,1 @@
-# OIRA_Web_Reports
+This site was created using [RStudio](https://rstudio.com/) and [blogdown](https://bookdown.org/yihui/blogdown/) using the default blogdown/Hugo theme, [hugo-lithium](https://github.com/yihui/hugo-lithium), as a base and then customizing it to be more in line with CUNY's branding by altering the layouts and CSS.  
