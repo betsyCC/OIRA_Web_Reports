@@ -296,7 +296,7 @@ td {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #999;
+  color: #ccc;
   font-size: 14px;
 }
 
@@ -307,7 +307,7 @@ td {
 }
 
 .footer-links a {
-  color: #999;
+  color: #666;
   text-decoration: none;
   transition: color 150ms ease;
   margin: 0 15px;
