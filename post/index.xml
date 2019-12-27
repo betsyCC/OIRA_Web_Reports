@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on OIRA_Web_Reports</title>
-    <link>https://betsycc.github.io/OIRA_Web_Reports/post/</link>
+    <link>/OIRA_Web_Reports/post/</link>
     <description>Recent content in Posts on OIRA_Web_Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://betsycc.github.io/OIRA_Web_Reports/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/OIRA_Web_Reports/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How this site was created...</title>
-      <link>https://betsycc.github.io/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</link>
+      <link>/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</link>
       <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://betsycc.github.io/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</guid>
+      <guid>/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/</guid>
       <description>This is my first blog post which I created mostly to test out how the blog would work if we decided to have one.
 This website is a draft for testing out options for posting accessible data tables and reports for CUNY’s Office of Institutional Research.
 This site was created using RStudio and blogdown using the default blogdown/Hugo theme, hugo-lithium, as a base and then customizing it to be more in line with CUNY’s branding by altering the layouts and CSS.</description>

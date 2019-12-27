@@ -272,6 +272,7 @@ table {
 	padding: 0px 4px;
 	text-align: right;
 	min-width: 5em;
+	width: 9%;
 }
 .datatable tbody tr:nth-child(even) {
 	background-color: #f0f3f7;
