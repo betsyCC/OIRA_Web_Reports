@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on OIRA_Web_Reports</title>
-    <link>https://betsycc.github.io/OIRA_Web_Reports/tags/</link>
+    <link>/OIRA_Web_Reports/tags/</link>
     <description>Recent content in Tags on OIRA_Web_Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://betsycc.github.io/OIRA_Web_Reports/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/OIRA_Web_Reports/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>enrollment</title>
-      <link>https://betsycc.github.io/OIRA_Web_Reports/tags/enrollment/</link>
+      <link>/OIRA_Web_Reports/tags/enrollment/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://betsycc.github.io/OIRA_Web_Reports/tags/enrollment/</guid>
+      <guid>/OIRA_Web_Reports/tags/enrollment/</guid>
       <description></description>
     </item>
     
