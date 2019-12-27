@@ -238,7 +238,7 @@ code {
 	width: 100%;
 	border-spacing: 0;
 	text-align: left;
-	font-size: 11pt;
+	font-size: 10pt;
 }
 .datatable caption {
 	text-align: left;
@@ -251,7 +251,8 @@ code {
 	font-weight: 600;
 	padding: 2px 4px;
 	border-bottom: 1px solid #1d3a83;
-	color: #1d3a83;
+	color: #fff;
+	background: #2b468a;
 	text-align: center;
 }
 .datatable tbody tr th {
