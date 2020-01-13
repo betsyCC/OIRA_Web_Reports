@@ -16,9 +16,14 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   color: #1d3a83;
+}
+
+h6 {
+  color: #fff;
+  font-size: 6px;
+  padding: 0px 0;
 }
 
 a:link, a:visited {
