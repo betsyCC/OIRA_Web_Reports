@@ -50,7 +50,7 @@ div {
 .header {
   padding: 20px 0;
   position: relative;
-  background: #465e8c;
+  background: #3b5280;
   border-bottom: 2px solid #b4bed1;
 }
 
@@ -269,7 +269,7 @@ td {
 	padding: 2px 4px;
 	border-bottom: 1px solid #1d3a83;
 	color: #fff;
-	background: #465e8c;
+	background: #3b5280;
 	text-align: center;
 }
 .datatable tbody tr th {
@@ -291,7 +291,7 @@ td {
 	padding: 2px 4px;
 	border-bottom: 1px solid #1d3a83;
 	color: #fff;
-	background: #6c82ad;
+	background: #3b5280;
 }
 
 .datatable tbody tr[subtotals="yes"] td { 
@@ -299,7 +299,7 @@ td {
 	padding: 2px 4px;
 	border-bottom: 1px solid #1d3a83;
 	color: #fff;
-	background: #6c82ad;
+	background: #3b5280;
 }
 
 .datatable tbody tr[totals="yes"] th { 
@@ -307,7 +307,7 @@ td {
 	padding: 2px 4px;
 	border-bottom: 1px solid #1d3a83;
 	color: #fff;
-	background: #465e8c;
+	background: #3b5280;
 }
 
 .datatable tbody tr[totals="yes"] td { 
@@ -315,7 +315,7 @@ td {
 	padding: 2px 4px;
 	border-bottom: 1px solid #1d3a83;
 	color: #fff;
-	background: #465e8c;
+	background: #3b5280;
 }
 
 .datatable tbody tr:nth-child(even) {
