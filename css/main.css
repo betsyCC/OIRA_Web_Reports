@@ -285,6 +285,39 @@ td {
 	min-width: 5em;
 	width: 9%;
 }
+
+.datatable tbody tr[subtotals="yes"] th { 
+	font-weight: 600;
+	padding: 2px 4px;
+	border-bottom: 1px solid #1d3a83;
+	color: #fff;
+	background: #6c82ad;
+}
+
+.datatable tbody tr[subtotals="yes"] td { 
+	font-weight: 600;
+	padding: 2px 4px;
+	border-bottom: 1px solid #1d3a83;
+	color: #fff;
+	background: #6c82ad;
+}
+
+.datatable tbody tr[totals="yes"] th { 
+	font-weight: 600;
+	padding: 2px 4px;
+	border-bottom: 1px solid #1d3a83;
+	color: #fff;
+	background: #465e8c;
+}
+
+.datatable tbody tr[totals="yes"] td { 
+	font-weight: 600;
+	padding: 2px 4px;
+	border-bottom: 1px solid #1d3a83;
+	color: #fff;
+	background: #465e8c;
+}
+
 .datatable tbody tr:nth-child(even) {
 	background-color: #f0f3f7;
 }
