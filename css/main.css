@@ -247,8 +247,8 @@ table {
 
 td {
 	padding: 0px 4px;
-	min-width: 5em;
-	width: 9%;
+	/*min-width: 5em;
+	width: 9%;*/
 }
 
 .datatable {
@@ -276,14 +276,13 @@ td {
 	font-weight: 600;
 	padding: 0px 4px;
 	color: #1d3a83;
-	min-width: 6em;
+	min-width: 5em;
 }
 .datatable tbody tr td {
 	font-weight: 400;
 	padding: 0px 4px;
 	text-align: right;
-	min-width: 5em;
-	width: 9%;
+	/*width: 9%;*/
 }
 
 /* http://rpbouman.blogspot.com/2015/04/css-tricks-for-conditional-formatting.html */
@@ -475,7 +474,7 @@ td {
 }
 
 /* https://davidruvolo51.github.io/shinytutorials/tutorials/responsive-tables/#work-function-main */
-@media (max-width: 892px){
+@media (max-width: 600px){
     .datatable thead {
         position: absolute;
         clip: rect(1px 1px 1px 1px);
@@ -484,12 +483,20 @@ td {
         height: 1px;
         overflow: hidden;
     }
-
-    .datatable .hidden-colname {
+	
+    .datatable tbody tr th, .datatable tbody tr td {
+        display: block;
+		padding: 0px 4px;
+		text-align: left;
+		vertical-align: top;
+    }
+	
+    .datatable td .hidden-colname {
         display: inline-block;
         clip: auto;
         width: 150px;
         height: auto;
         line-height: 1;
+		vertical-align: top;
     }
 }
