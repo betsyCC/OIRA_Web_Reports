@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.61.0" />
+
+
+<title>Customization of Hugo Lithium theme and the datatable function - OIRA_Web_Reports</title>
+<meta property="og:title" content="Customization of Hugo Lithium theme and the datatable function - OIRA_Web_Reports">
+
+
+  <link href='https://betsycc.github.io/OIRA_Web_Reports/square_blue_66X_icon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/OIRA_Web_Reports/css/fonts.css" media="all">
+<link rel="stylesheet" href="/OIRA_Web_Reports/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/OIRA_Web_Reports/" class="nav-logo">
+    <img src="/OIRA_Web_Reports/images/CUNY_Logo_White_RGB.svg"
+         width="100"
+         height="50"
+         alt="CUNY Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/OIRA_Web_Reports/databook/">Student Data Book</a></li>
+    
+    <li><a href="/OIRA_Web_Reports/post/">Blog</a></li>
+    
+    <li><a href="https://www.cuny.edu/about/administration/offices/oira/institutional/">OIR Website</a></li>
+    
+    <li><a href="https://github.com/betsyCC/OIRA_Web_Reports">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">Customization of Hugo Lithium theme and the datatable function</h1>
+
+    
+    <span class="article-date">2020-01-21</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>In the first blog post, <a href="https://betsycc.github.io/OIRA_Web_Reports/2019/12/26/how-this-site-was-created/">How this site was created…</a>, I very briefly described the tools I used to create this draft website. Since then a <em>lot</em> of additional customizations have been made to get the draft to a more finished working state. I wanted to document the basic steps taken and files that needed to be changed in order to customize the tools used to create this site before I forget so that others who are interested in doing something similar or who want to use this draft and make further customizations to suit their own needs will have a starting point to work from.</p>
+<p>Before I do that though, just a note that I am not by any means an expert in developing Hugo themes and still am not quite sure how I got this working, and why it works, but it does. So take everything here with a grain of salt and I highly recommend that you do yourself a favor and read the excellent <a href="https://bookdown.org/yihui/blogdown/">blogdown documentation</a> (especially chapter 2 on Hugo) to get a basic understanding of how Hugo themes work before trying to implement any of this.</p>
+<p>The Hugo Lithium theme files can be found in the folder where you created your project (and installed the Hugo theme) in the <code>/themes/hugo-lithium</code> subfolder. Within this subfolder is the <code>/layouts</code> folder, where you can find the theme layouts which determine how Hugo creates your webpage structure, and the <code>\static\css</code> folder where you can find the CSS files that control how web browsers style and display your HTML elements. The layouts control things like the header and footer of your pages and how links to new pages are added to the blog. The CSS controls things like text and background colors, text alignment and font sizes, etc… I will write about the CSS at the end of this post. First I will describe how to get your pages structured the way you want them by altering the Hugo layout files.</p>
+<div id="customizing-the-hugo-theme" class="section level2">
+<h2>Customizing the Hugo theme</h2>
+<div id="layouts" class="section level3">
+<h3>layouts</h3>
+<p>In order to create a website that isn’t focused on the blog (where new pages are automatically treated like blog posts) I had to change the <code>list.html</code> file in the <code>/themes/hugo-lithium/layouts/_default</code> folder so that only files added to the <code>posts</code> folder would be treated like blog posts and automatically added to the links in the archive on the blog webpage. The code to accomplish this was just adding a conditional statement <code>(where $pages "Section" "==" "post")</code> to the <code>range</code> in the <code>&lt;div class="archive"&gt;</code> tag. So only pages in the <code>posts</code> folder are added to the archive list on the webapge. The full code can be seen on GitHub at <a href="https://github.com/betsyCC/Enrollment_Website_DRAFT/blob/master/themes/hugo-lithium/layouts/_default/list.html" class="uri">https://github.com/betsyCC/Enrollment_Website_DRAFT/blob/master/themes/hugo-lithium/layouts/_default/list.html</a>.</p>
+<p>Additionally the <code>footer.html</code> file in the <code>/themes/hugo-lithium/layouts/partials</code> folder was changed from this:</p>
+<pre><code>      &lt;footer class=&quot;footer-orig&quot;&gt;
+        &lt;ul class=&quot;footer-links&quot;&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;{{ .Site.RSSLink | relURL }}&quot; type=&quot;application/rss+xml&quot; target=&quot;_blank&quot;&gt;RSS feed&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;https://gohugo.io/&quot; class=&quot;footer-links-kudos&quot;&gt;Made with &lt;img src=&quot;{{ &quot;images/hugo-logo.png&quot; | relURL }}&quot; alt=&quot;Img link to Hugo website&quot; width=&quot;22&quot; height=&quot;22&quot;&gt;&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/footer&gt;
+
+    &lt;/div&gt;
+    {{ partial &quot;footer_highlightjs&quot; . }}
+    {{ partial &quot;footer_mathjax&quot; . }}
+    {{ template &quot;_internal/google_analytics.html&quot; . }}
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>to this:</p>
+<pre><code>      &lt;footer class=&quot;footer&quot;&gt;
+        &lt;ul class=&quot;footer-links&quot;&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;https://rstudio.com/&quot; class=&quot;footer-links-kudos&quot;&gt;Made in RStudio &lt;img src=&quot;{{ &quot;images/RStudio-logo.png&quot; | relURL }}&quot; alt=&quot;Img link to RStudio website&quot; width=&quot;26&quot; height=&quot;26&quot;&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;https://bookdown.org/yihui/blogdown/&quot; class=&quot;footer-links-kudos&quot;&gt;with blogdown &lt;img src=&quot;{{ &quot;images/blogdown-logo.png&quot; | relURL }}&quot; alt=&quot;Img link to blogdown website&quot; width=&quot;26&quot; height=&quot;26&quot;&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;https://gohugo.io/&quot; class=&quot;footer-links-kudos&quot;&gt;and Hugo &lt;img src=&quot;{{ &quot;images/hugo-logo.png&quot; | relURL }}&quot; alt=&quot;Img link to Hugo website&quot; width=&quot;26&quot; height=&quot;26&quot;&gt;&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/footer&gt;
+
+    &lt;/div&gt;
+    {{ partial &quot;footer_highlightjs&quot; . }}
+    {{ partial &quot;footer_mathjax&quot; . }}
+    {{ template &quot;_internal/google_analytics.html&quot; . }}
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>The RSS link was removed and details about the additional tools used to create the site (RStudio and blogdown) were added.</p>
+<p>I think that was the extent of the changes made to the layout files, although I may have forgotten something.</p>
+</div>
+</div>
+<div id="customizing-the-datatable-function" class="section level2">
+<h2>Customizing the datatable function</h2>
+<p>I may not ever actually addd this section since the original creator of the datatable function has since turned it into an R Package, <a href="https://github.com/davidruvolo51/accessibleshiny">accessibleshiny</a>, that you can install using the remotes package.</p>
+<pre><code>install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;davidruvolo51/accessibleshiny&quot;)</code></pre>
+<p>All of my customizations were added as new features to the datatable functions so you don’t have to do what I did.</p>
+</div>
+<div id="customizing-the-css" class="section level2">
+<h2>Customizing the CSS</h2>
+<p>I will add a new blog post on this later once I have changed my code over to use the new <code>accessibleshiny</code> package and fixed my css accordingly…</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+		  <li>
+            <a href="https://rstudio.com/" class="footer-links-kudos">Made in RStudio <img src="/OIRA_Web_Reports/images/RStudio-logo.png" alt="Img link to RStudio website" width="26" height="26"></a>
+          </li>
+		  <li>
+            <a href="https://bookdown.org/yihui/blogdown/" class="footer-links-kudos">with blogdown <img src="/OIRA_Web_Reports/images/blogdown-logo.png" alt="Img link to blogdown website" width="26" height="26"></a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">and Hugo <img src="/OIRA_Web_Reports/images/hugo-logo.png" alt="Img link to Hugo website" width="26" height="26"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/OIRA_Web_Reports/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>

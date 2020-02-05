@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Customization of Hugo Lithium theme and the datatable function</title>
+      <link>https://betsycc.github.io/OIRA_Web_Reports/2020/01/21/customization-of-hugo-lithium-and-datatable-function/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://betsycc.github.io/OIRA_Web_Reports/2020/01/21/customization-of-hugo-lithium-and-datatable-function/</guid>
+      <description>In the first blog post, How this site was created…, I very briefly described the tools I used to create this draft website. Since then a lot of additional customizations have been made to get the draft to a more finished working state. I wanted to document the basic steps taken and files that needed to be changed in order to customize the tools used to create this site before I forget so that others who are interested in doing something similar or who want to use this draft and make further customizations to suit their own needs will have a starting point to work from.</description>
+    </item>
+    
+    <item>
       <title>2018 enrollment - other options - DRAFT</title>
       <link>https://betsycc.github.io/OIRA_Web_Reports/databook/2018-enrollment-other-options/</link>
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>

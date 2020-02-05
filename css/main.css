@@ -188,7 +188,7 @@ div {
   border-radius: 3px;
   position: relative;
   margin: 40px 0;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .highlight pre {
@@ -256,6 +256,7 @@ td {
 	border-spacing: 0;
 	text-align: left;
 	font-size: 0.75em;
+	overflow: auto;
 }
 .datatable caption {
 	text-align: left;
@@ -426,7 +427,7 @@ td {
   }
 
   .highlight {
-    font-size: 16px;
+    font-size: 12px;
     margin: 40px -20px;
   }
 
